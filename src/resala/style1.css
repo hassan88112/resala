@@ -1,0 +1,172 @@
+.pane
+{
+    -fx-background-color:  #eeeeee;
+    -fx-background-radius:  15;
+}
+
+
+.backpane
+{
+    -fx-background-color:  #ff6a6a;
+    -fx-background-radius: 70;
+}
+
+
+.textpane
+{
+    -fx-background-color:  #5ac6f7;
+    -fx-background-radius:  40;
+    -fx-border-radius: 40;
+    -fx-border-color: black;
+}
+
+
+.trianglepane
+{
+    -fx-fill:  #5ac6f7;
+}
+
+
+.backclosebutton
+{
+-fx-background-color :  #eeeeee ;
+-fx-background-radius :  5;
+-fx-border-color: #eeeeee ;
+-fx-cursor: hand ;
+}
+
+
+.button1
+{
+-fx-background-color :  #eeeeee ;
+-fx-background-radius :  35;
+-fx-border-color : black ;
+-fx-border-radius : 35;
+-fx-cursor: hand ;
+-fx-text-fill: #3f3838 ;
+}
+
+.button1:hover
+{
+-fx-background-color : #39799d ;
+-fx-background-radius :  35;
+-fx-text-fill: white;
+}
+
+.button1:pressed
+{
+-fx-background-color : #7395a7 ;
+-fx-background-radius :  35;
+-fx-text-fill: white;
+}
+
+
+.buttonpressed
+{
+-fx-background-color :  #39799d ;
+-fx-background-radius :  35;
+-fx-border-color : black ;
+-fx-border-radius : 35;
+-fx-text-fill: white ;
+}
+
+
+.checkbutton
+{
+    -fx-cursor: hand ;
+}
+
+
+.textfield
+{
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-border-color: black;
+}
+
+
+.combobox17
+{
+    -fx-background-color :white ;
+    -fx-background-radius: 30 ;
+    -fx-border-color:  black ;
+    -fx-border-radius: 30 ;
+    -fx-font-weight: bold ;
+    -fx-font-size: 17;
+    -fx-alignment: CENTER ;
+    -fx-cursor: hand ;
+}
+
+.combobox17:hover
+{
+    -fx-background-color : #39799d ;
+    -fx-text-fill: #3f3838 ;
+    -fx-border-color:  black;
+    -fx-border-radius: 30 ;
+}
+
+.combobox17:pressed
+{
+    -fx-background-color : #7395a7;
+    -fx-text-fill: #3f3838 ;
+    -fx-border-color:  black;
+    -fx-border-radius: 30;
+}
+
+
+.combobox19
+{
+    -fx-background-color :white ;
+    -fx-background-radius: 30 ;
+    -fx-border-color:  black ;
+    -fx-border-radius: 30 ;
+    -fx-font-weight: bold ;
+    -fx-font-size: 19;
+    -fx-alignment: CENTER ;
+    -fx-cursor: hand ;
+}
+
+.combobox19:hover
+{
+    -fx-background-color : #39799d ;
+    -fx-text-fill: #3f3838 ;
+    -fx-border-color:  black;
+    -fx-border-radius: 30 ;
+}
+
+.combobox19:pressed
+{
+    -fx-background-color : #7395a7;
+    -fx-text-fill: #3f3838 ;
+    -fx-border-color:  black;
+    -fx-border-radius: 30;
+}
+
+
+.combobox25
+{
+    -fx-background-color :white ;
+    -fx-background-radius: 30 ;
+    -fx-border-color:  black ;
+    -fx-border-radius: 30 ;
+    -fx-font-weight: bold ;
+    -fx-font-size: 25;
+    -fx-alignment: CENTER ;
+    -fx-cursor: hand ;
+}
+
+.combobox25:hover
+{
+    -fx-background-color : #39799d ;
+    -fx-text-fill: #3f3838 ;
+    -fx-border-color:  black;
+    -fx-border-radius: 30 ;
+}
+
+.combobox25:pressed
+{
+    -fx-background-color : #7395a7;
+    -fx-text-fill: #3f3838 ;
+    -fx-border-color:  black;
+    -fx-border-radius: 30;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="760.0" style="-fx-background-color: #203347;" styleClass="pane" stylesheets="@../style1.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resala.view.AboutController">
+   <children>
+      <Button alignment="CENTER" layoutX="24.0" layoutY="14.0" mnemonicParsing="false" onAction="#backbtn" opacity="0.0" prefHeight="58.0" prefWidth="44.0" styleClass="backclosebutton" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <Button alignment="CENTER" layoutX="702.0" layoutY="7.0" mnemonicParsing="false" onAction="#closebtn" opacity="0.0" prefHeight="58.0" prefWidth="44.0" styleClass="backclosebutton" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="702.0" layoutY="18.0">
+         <image>
+            <Image url="@../image/icons8_delete_48px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="44.0" layoutX="24.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/icons8_back_64px_1.png" />
+         </image>
+      </ImageView>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="538.0" prefWidth="711.0">
+         <children>
+            <Text layoutX="147.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="جمعية رساله للأعمال الخيريه بكوم حماده- بدأت رسالة عام 1999 كحركة طلابيه في كلية الهندسة جامعة القاهرة و ذلك رغبة من الطلاب في محاولة تطوير مجتمعهم و التوجه نحو الإيجابية ، كانت الأنشطة تتراوح بين التبرع بالدم و خدمات الكلية و زيارات دور الأيتام و المسنين و المستشفيات...- وفى عام 2000 جاءت النقلة الأولى لرسالة عندما تبرع شخص بقطعة أرض في منطقة فيصل و استطاع الشباب المتطوع توفير التمويل اللازم بمجهوداتهم الشخصية و تم إشهار الجمعية برقم 444 و تم إنشاء أول فرع من فروع رسالة ( رسالة فيصل ) ...- وحتى عام 2013 أصبح لجمعية رساله اكثر من 55 فرع بجميع محافظات الجمهوريه و يمارس من خلال هذه الأفرع ما لا يقل عن 20 نشاط خيرى يعمل به آلاف المتطوعين من الشباب و الفتيات و الأطفال و الكبار ...- أما عن فرع كوم حماده المشهر برقم 1238 لسنة 2007 فبدأ نشاطه عام 2008 بشقه صغيره بكوم حماده من خلال 3 شباب فى كلية الطب و أصبح الآن من أكبر الجمعيات الخيريه بكوم حماده . و امتد نشاطه إلى جميع قرى كوم حماده و يعمل به مئات المتطوعين من الشباب و الفتيات ...                                 - عنوان المقر : شارع رسلان متفرع من شارع المزلقان البحري -تاني شارع غرب الكنيسة " wrappingWidth="502.13671875" />
+            <Label layoutX="310.0" layoutY="134.0" prefHeight="58.0" prefWidth="129.0" text="عن رسالة كوم حماده" />
+         </children>
+      </AnchorPane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="650.0" styleClass="pane" stylesheets="@../style1.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resala.view.Ttw3Controller">
+   <children>
+      <Button alignment="CENTER" mnemonicParsing="false" onAction="#backbtn" prefHeight="65.0" prefWidth="65.0" styleClass="backclosebutton" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <graphic>
+            <ImageView fitHeight="59.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_back_96px_1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button alignment="CENTER" layoutX="592.0" layoutY="2.0" mnemonicParsing="false" onAction="#closebtn" prefHeight="50.0" prefWidth="44.0" styleClass="backclosebutton" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="44.0">
+               <image>
+                  <Image url="@../image/icons8_close_window_96px_1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Pane layoutX="61.0" layoutY="-95.0" prefHeight="200.0" prefWidth="400.0" rotate="37.9" style="-fx-background-color: #ff6a6a; -fx-background-radius: 70;" />
+      <Label layoutX="230.0" layoutY="47.0" prefHeight="78.0" prefWidth="272.0" text="استمارة التطوع">
+         <font>
+            <Font name="SansSerif Bold" size="50.0" />
+         </font>
+      </Label>
+      <Circle fill="#eeeeee" layoutX="178.0" layoutY="86.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="148.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/emoticon-with-happy-face.png" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER" layoutX="100.0" layoutY="140.0" prefHeight="64.0" prefWidth="470.0" promptText="الاسم الاول" styleClass="textfield">
+         <font>
+            <Font name="Cambria Bold" size="32.0" />
+         </font>
+      </TextField>
+      <Circle layoutX="527.0" layoutY="172.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="505.0" layoutY="148.0">
+         <image>
+            <Image url="@../image/icons8_contacts_52px.png" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER" layoutX="100.0" layoutY="216.0" prefHeight="64.0" prefWidth="470.0" promptText="الاسم الاخير" styleClass="textfield">
+         <font>
+            <Font name="Cambria Bold" size="32.0" />
+         </font>
+      </TextField>
+      <Circle layoutX="529.0" layoutY="248.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="507.0" layoutY="224.0">
+         <image>
+            <Image url="@../image/icons8_contacts_52px.png" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER" layoutX="100.0" layoutY="288.0" prefHeight="64.0" prefWidth="470.0" promptText="رقم الموبايل" styleClass="textfield">
+         <font>
+            <Font name="Cambria Bold" size="32.0" />
+         </font>
+      </TextField>
+      <Circle layoutX="528.0" layoutY="320.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="508.0" layoutY="299.0">
+         <image>
+            <Image url="@../image/icons8_iphone_60px.png" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER" layoutX="100.0" layoutY="363.0" prefHeight="64.0" prefWidth="470.0" promptText="الايميل" styleClass="textfield">
+         <font>
+            <Font name="Cambria Bold" size="32.0" />
+         </font>
+      </TextField>
+      <Circle layoutX="529.0" layoutY="395.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="509.0" layoutY="375.0">
+         <image>
+            <Image url="@../image/icons8_gmail_100px.png" />
+         </image>
+      </ImageView>
+      <PasswordField alignment="CENTER" layoutX="100.0" layoutY="437.0" prefHeight="64.0" prefWidth="470.0" promptText="الباسورد" styleClass="textfield">
+         <font>
+            <Font name="Cambria Bold" size="32.0" />
+         </font>
+      </PasswordField>
+      <Circle layoutX="527.0" layoutY="469.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="34.0" fitWidth="32.0" layoutX="512.0" layoutY="451.0">
+         <image>
+            <Image url="@../image/icons8_key_128px.png" />
+         </image>
+      </ImageView>
+      <PasswordField alignment="CENTER" layoutX="100.0" layoutY="509.0" prefHeight="64.0" prefWidth="470.0" promptText="تأكيد الباسورد" styleClass="textfield">
+         <font>
+            <Font name="Cambria Bold" size="32.0" />
+         </font>
+      </PasswordField>
+      <Circle layoutX="527.0" layoutY="541.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="34.0" fitWidth="32.0" layoutX="512.0" layoutY="523.0">
+         <image>
+            <Image url="@../image/icons8_key_128px.png" />
+         </image>
+      </ImageView>
+      <Button alignment="CENTER" layoutX="256.0" layoutY="603.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="150.0" styleClass="button1" text="ارسال" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Button>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

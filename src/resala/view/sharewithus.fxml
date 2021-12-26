@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="650.0" styleClass="pane" stylesheets="@../style1.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resala.view.SharewithusController">
+   <children>
+      <Button alignment="CENTER" mnemonicParsing="false" onAction="#backbtn" prefHeight="65.0" prefWidth="65.0" styleClass="backclosebutton" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <graphic>
+            <ImageView fitHeight="59.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_back_96px_1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button alignment="CENTER" layoutX="592.0" layoutY="2.0" mnemonicParsing="false" onAction="#closebtn" prefHeight="50.0" prefWidth="44.0" styleClass="backclosebutton" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="44.0">
+               <image>
+                  <Image url="@../image/icons8_close_window_96px_1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Pane layoutX="61.0" layoutY="-95.0" prefHeight="200.0" prefWidth="400.0" rotate="37.9" styleClass="backpane" />
+      <Circle fill="WHITE" layoutX="535.0" layoutY="94.0" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="70.0" fitWidth="82.0" layoutX="494.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Resala.png" />
+         </image>
+      </ImageView>
+      <Circle fill="WHITE" layoutX="535.0" layoutY="214.0" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="70.0" fitWidth="82.0" layoutX="494.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Resala.png" />
+         </image>
+      </ImageView>
+      <Polygon fill="#5ac6f7" layoutX="429.0" layoutY="169.0" points="2.784637451171875, -37.0, 59.784637451171875, -75.42849731445312, 2.784637451171875, -115.42849731445312" stroke="BLACK" strokeType="INSIDE" styleClass="trianglepane" />
+      <Pane layoutX="84.0" layoutY="47.0" prefHeight="90.0" prefWidth="386.0" styleClass="textpane">
+         <children>
+            <Text fill="WHITE" layoutX="53.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" شكرا على ثقتك فينا وربنا يجعله فى ميزان حسناتك" textAlignment="CENTER" wrappingWidth="285.0">
+               <font>
+                  <Font name="Calibri Bold" size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Polygon fill="#5ac6f7" layoutX="429.0" layoutY="289.0" points="2.784637451171875, -26.0, 59.784637451171875, -75.42849731445312, 2.784637451171875, -126.0" stroke="BLACK" strokeType="INSIDE" styleClass="trianglepane" />
+      <Pane layoutX="85.0" layoutY="158.0" prefHeight="110.0" prefWidth="386.0" styleClass="textpane">
+         <children>
+            <Text fill="WHITE" layoutX="20.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="لو انت لسه اول مرة تتبرع معانا خدلك لفه فى قسم الانشطه اللى فى التطبيق عشان تعرف احنا بنعمل ايه بالظبط" textAlignment="CENTER" wrappingWidth="348.0">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Label layoutX="245.0" layoutY="285.0" prefHeight="78.0" prefWidth="272.0" text="حابب تعمل ايه؟" textFill="#3f3838">
+         <font>
+            <Font name="SansSerif Bold" size="50.0" />
+         </font>
+      </Label>
+      <Circle fill="#eeeeee" layoutX="193.0" layoutY="324.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="163.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/emoticon-with-happy-face.png" />
+         </image>
+      </ImageView>
+      <Button alignment="TOP_RIGHT" layoutX="109.0" layoutY="390.0" mnemonicParsing="false" onAction="#no3eltbr3" prefHeight="70.0" prefWidth="432.0" styleClass="button1" text="طلب تبرع مرة واحدة" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="50.0" top="30.0" />
+         </padding>
+      </Button>
+      <Circle layoutX="178.0" layoutY="434.0" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="60.0" fitWidth="66.0" layoutX="148.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/icons8_dollar_place_marker_48px_1.png" />
+         </image>
+      </ImageView>
+      <Button alignment="TOP_RIGHT" layoutX="109.0" layoutY="522.0" mnemonicParsing="false" onAction="#tbr3sh7ry" prefHeight="70.0" prefWidth="432.0" styleClass="button1" text="عمل استمارة تبرع شهرية" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="50.0" top="30.0" />
+         </padding>
+      </Button>
+      <Circle layoutX="178.0" layoutY="566.0" radius="33.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="60.0" fitWidth="53.0" layoutX="150.0" layoutY="539.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/icons8_form_100px_2.png" />
+         </image>
+      </ImageView>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

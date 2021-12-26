@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane prefHeight="2000.0" prefWidth="704.0" style="-fx-background-color: #203347;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resala.view.ActivitesController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2178.0" prefWidth="692.0" style="-fx-background-color: #203347;">
+         <children>
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="273.0" layoutY="81.0" prefHeight="45.0" prefWidth="197.0" style="-fx-background-color: #3c58fa; -fx-background-radius: 10;" text="نشاط المساعدات   " textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="292.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_handshake_52px_1.png" />
+               </image></ImageView>
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="273.0" layoutY="321.0" prefHeight="45.0" prefWidth="197.0" style="-fx-background-color: #3c58fa; -fx-background-radius: 10;" text="نشاط المعارض" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="289.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_clothes_60px_1.png" />
+               </image></ImageView>
+            <Text fill="WHITE" layoutX="111.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="نشاط المساعدات هو اكبر انشطه الجمعيه لأنه بيضم اكتر من لجنة زي لجنه بناء الاسقف ولجنة وصلات المياه , وتجهيز العرايس ,ولجنه العيني ولجنه المشاريع وغيرها من لجان كتير " textAlignment="RIGHT" wrappingWidth="500.13671875">
+               <font>
+                  <Font name="Arial" size="29.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="111.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ده النشاط اللي بيكون مسئول عن اي لبس بيدخل او يخرج من الجمعية , تبرعات اللبس اللي بنجمعها من المتبرعين بيتم فرزها الاول عشان نحدد ايه الصالح للاستخدام وايه الهالك وبعدين بيتم غسلها وتعقيمها وفي الاخر بنكيسها عشان نقدمها للمستفيدين في افضل شكل لان الاحسان هو اساس شغلنا . فيه ايفينتات كبيره للملابس رسالة بتعملهم سنويا  زي كساء رمضان ,وكساء الشتاء , وكساء المدارس " textAlignment="RIGHT" wrappingWidth="498.13671875">
+               <font>
+                  <Font name="Arial" size="29.0" />
+               </font>
+            </Text>
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="262.0" layoutY="697.0" prefHeight="45.0" prefWidth="197.0" style="-fx-background-color: #3c58fa; -fx-background-radius: 10;" text="نشاط الزيارت" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="278.0" layoutY="697.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_grandfather_60px.png" />
+               </image></ImageView>
+            <Text fill="WHITE" layoutX="111.0" layoutY="811.0" strokeType="OUTSIDE" strokeWidth="0.0" text="في ناس مسنة عايشة لوحدها في البيت وفيه ناس ملهاش قرايب يسئلوا عنهم ورسالة دورها انها تكسر الوحدة اللي بيحسوا بيها , المتطوعين بيروحوا زيارة للناس دي في البيت , بيقعدوا معاهم شوية يسلوهم ويساهروهم وينضفولهم البيت ويحسسوهم ان في ناس بتفكر فيهم وان الدنيا لسا بخير" textAlignment="RIGHT" wrappingWidth="521.13671875">
+               <font>
+                  <Font name="Arial" size="29.0" />
+               </font>
+            </Text>
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="273.0" layoutY="1025.0" prefHeight="45.0" prefWidth="197.0" style="-fx-background-color: #3c58fa; -fx-background-radius: 10;" text="نشاط الطبي " textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="292.0" layoutY="1025.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_hospital_52px.png" />
+               </image></ImageView>
+            <Text fill="WHITE" layoutX="111.0" layoutY="1132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="نشاط انقاذ حياة الناس وفي سبيل الحفاظ علي حياتهم بيقوم المتطوعين في النشاط دا بعمل تحاليل بأسعار رمزية زي تحليل فيرس سي بالتعاون مع المعامل المختلفة , كمان بيتم توفير كشوفات مجانية بالتعاون مع الاطباء في التحصصات المختلفة , وبيقوم بصرف روشيتات الادوية من صيدليه الجمعية في حاله توافرها " textAlignment="RIGHT" wrappingWidth="521.13671875">
+               <font>
+                  <Font name="Arial" size="29.0" />
+               </font>
+            </Text>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#backbtn" opacity="0.0" prefHeight="65.0" prefWidth="65.0" style="-fx-background-color: #203347;" styleClass="backclosebutton" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="40.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+            <ImageView fitHeight="59.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_back_64px_1.png" />
+               </image>
+            </ImageView>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#closebtn" opacity="0.0" prefHeight="50.0" prefWidth="44.0" style="-fx-background-color: #203347;" styleClass="backclosebutton" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="40.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="632.0" layoutY="14.0">
+               <image>
+                  <Image url="@../image/icons8_delete_48px.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="273.0" layoutY="1353.0" prefHeight="45.0" prefWidth="197.0" style="-fx-background-color: #3c58fa; -fx-background-radius: 10;" text="نشاط الريسيكل" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="289.0" layoutY="1353.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_recycle_52px.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="263.0" layoutY="1634.0" prefHeight="45.0" prefWidth="197.0" style="-fx-background-color: #3c58fa; -fx-background-radius: 10;" text="نشاط الدعايا" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="289.0" layoutY="1634.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_browse_podcasts_100px.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="85.0" layoutY="1478.0" strokeType="OUTSIDE" strokeWidth="0.0" text="في نشاط الريسيكل بيتم تجميع الاجهزة اللي الناس اتبرعت بيها وفرزها عشان نعرف القابل للاستخدام علي طول ولا اللي لسه محتاج صيانة , النشاط بيكون مسئول عن تصليحه وتسليمه للجنة العيني المسئولة عن توصيل الجهاز للمستفيد " textAlignment="RIGHT" wrappingWidth="521.13671875">
+               <font>
+                  <Font name="Arial" size="29.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="100.0" layoutY="1747.0" strokeType="OUTSIDE" strokeWidth="0.0" text="الجمعية مبنية علي مبدأين , التطوع والتبرع , وهنا بيجي دور نشاط الدعايا في عمل حملات دعائية هدفها تعريف الناس تاريخ الجمعية وسبب تواجدها ودورها في مساعده الناس وده بيتم بكذا طريقة زي الدعايا المنزلية ,ودعايا التطوع ,وعمل كرنفالات في الشارع لنشر البهجه وتعريف الناس بالجمعية " textAlignment="RIGHT" wrappingWidth="521.13671875">
+               <font>
+                  <Font name="Arial" size="29.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
